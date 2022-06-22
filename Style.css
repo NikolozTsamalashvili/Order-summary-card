@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: #e0e8ff;
+  font-size: 16px;
+  color: #717fa6;
+}
+
+h1,h2 {
+  color: #1f2e55;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://cdn.glitch.global/485b5c28-758e-4de0-8435-d357222b068b/pattern-background-desktop.svg?v=1655743041830);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -80px;
+}
+
+.order-summary-card {
+  width: 400px;
+  max-width: 85%;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+.order-summary-card  img {
+  width: 100%;
+}
+
+.order-summary {
+  margin-top: -5px;
+  padding: 40px;
+}
+
+.order-header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.order-header h1 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 11.2px;
+}
+
+.plan-info {
+  margin-right: auto;
+}
+
+.plan-info h2 {
+  font-size: 16px;
+}
+
+.order-plan {
+  display: flex;
+  align-items: center;
+  background: #f7f9ff;
+  border-radius: 11px;
+  padding: 19.2px;
+  margin-bottom: 24px;
+}
+
+.order-plan img {
+  width: 40px;
+  margin-right: 16px;
+}
+
+.order-plan a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.order-plan a:hover {
+  color: #766cf1;
+}
+
+.footer button {
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 9.6px 0;
+}
+
+button.payment-button {
+  background: #382ae1;
+  color: #ffffff;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  margin-bottom: 12.8px;
+}
+
+button.payment-button:hover {
+  background: #766cf1;
+}
+
+button.cancel-button {
+  color: #798ab9;
+}
+
+button.cancel-button:hover {
+  color: #1f2e55;
+}
